@@ -1,0 +1,22 @@
+{
+"parameters": [
+		{
+			"name": "ReleaseVersion",
+			"value": "Q1V1.0"
+		},
+		{
+			"name": "AppVersion",
+			"value": "V12.34"
+		},
+		
+		{
+			"name": "ReleaseName",
+			"value": "Banking-FY19Q3"
+		}
+	],
+	"reference": {
+		"fileName": "Taining_Delivery_Template.json",
+		"fileSource": "CDD Training Dev"
+	}
+
+}	
