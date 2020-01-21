@@ -36,7 +36,7 @@ pipeline {
                             				customServerName: 'cddirector.io',
                             				customServerPort: 8443,
                             				customTenantId: 'dd956bb5-1be0-4855-8606-c515c7926e0c',
-                            				customUseSSL: false
+                            				customUseSSL: true
                     			],
 					releaseTokens: '{}'
 		}
