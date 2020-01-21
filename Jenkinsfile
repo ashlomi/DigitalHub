@@ -29,13 +29,13 @@ pipeline {
 					gitCommit: "${env.GIT_COMMIT}",
 					gitPrevSuccessfulCommit: "${env.GIT_PREVIOUS_SUCCESSFUL_COMMIT}",
 					overrideCDDConfig: [
-							customApiKey: 'eyJhbGciOiJIUzUxMiJ9.eyJ1c2VybmFtZSI6InN1cGVydXNlckBjYS5jb20iLCJ0ZW5hbnRJZCI6IjAwMDAwMDAwLTAwMDAtMDAwMC0wMDAwLTAwMDAwMDAwMDAwMCIsInVzZXJJZCI6MSwianRpIjoiYTRhY2JlNTItNTQyMC00ODUxLWIxNmEtM2IwYjNhY2NmYjM0IiwiZXhwIjoxNTg2MzUxNTczfQ.igbNaTPkepWZ83Ux0Lr1S3h1q04l67MDQxPQ9LvwaoyvGVxwsDcp1E3bM-NlgF4Qe31KgHEJl_F0rwRtUUIV6A',
+							customApiKey: 'eyJhbGciOiJIUzUxMiJ9.eyJ1c2VybmFtZSI6ImFzaGxvbWl0ZXN0QGdtYWlsLmNvbSIsInRlbmFudElkIjoiZGQ5NTZiYjUtMWJlMC00ODU1LTg2MDYtYzUxNWM3OTI2ZTBjIiwidXNlcklkIjoxMSwianRpIjoiMjNiMjVjOGQtYWQ4NS00NmVmLTlhNmYtYjFjMzE1NDhjODg0IiwiZXhwIjoxNTgyNTI2MTgxfQ.4pHS5tIkQwqVzdrBPputzdJ4vZmWxbHKbvYnjgxRAfDdERKfuNEIrPEzXwn6Ew_0S9INci69Ub1LbeibfUJ3vw',
 							customProxyPassword: '',
                             				customProxyUrl: '',
                            				customProxyUsername: '',
-                            				customServerName: 'lvntest002908.bpc.broadcom.net',
-                            				customServerPort: 8080,
-                            				customTenantId: '00000000-0000-0000-0000-000000000000',
+                            				customServerName: 'cddirector.io',
+                            				customServerPort: 8443,
+                            				customTenantId: 'dd956bb5-1be0-4855-8606-c515c7926e0c',
                             				customUseSSL: false
                     			],
 					releaseTokens: '{}'
